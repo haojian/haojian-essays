@@ -1,4 +1,0 @@
----
-slug: en
-name: en
----
