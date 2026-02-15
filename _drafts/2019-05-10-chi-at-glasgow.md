@@ -12,13 +12,13 @@ The Ph.D. is the beginning, not the culmination, of your career. Don’t worry a
 
 今年是我参加的第三个CHI, 2016年 San Jose, 2018年 Montreal, 2019年 Glasgow. 这期间我的研究兴趣也发生了很大的改变，导致我每年听的session都不太一样。 16年的时候，我去的最多的的是interaction techniques, 18年是sensing/gaming/social computing，而19年我去了大部分的iot和privacy。 渐渐开始靠近毕业，我也开始需要找我的home community。
 
-home community对于学者而言是很重要的一个概念。今天的科学研究已经高度专业化，每一个小领域的学者会渐渐聚集在一起，形成一个松散的小团体。hci 今天已经是一个很大的领域，“i am a CHI person“ tells nothing. 因为即便在chi，不同session的人可能对另外一个session的work 一无所知。即便hci的研究相对而言，是比较容易让人懂的。 对于我而言，
+home community对于学者而言是很重要的一个概念。今天的科学研究已经高度专业化，每一个小领域的学者会渐渐聚集在一起，形成一个松散的小团体。hci 今天已经是一个很大的领域，“i am a CHI person“ tells nothing. 因为即便在CHI，不同session的人可能对另外一个session的work 一无所知。即便hci的研究相对而言，是比较容易让人懂的。 对于我而言，
 
 the 
 
-今年是我参加的第三个CHI, 2016年San Jose, 2018年Montreal, 2019年Glasgow。这期间我的研究兴趣也发生了巨大的改变，每一年我去听的session和过去一年都完全不一样。 16年的时候我去的最多的是interaction technique，18年是sensing/ar/vr，而19年我去的最多的是iot和privacy。每年在chi其实都是一个struggle，因为我不知道chi会不会是我的home conference。
+今年是我参加的第三个CHI, 2016年San Jose, 2018年Montreal, 2019年Glasgow。这期间我的研究兴趣也发生了巨大的改变，每一年我去听的session和过去一年都完全不一样。 16年的时候我去的最多的是interaction technique，18年是sensing/ar/vr，而19年我去的最多的是iot和privacy。每年在CHI其实都是一个struggle，因为我不知道CHI会不会是我的home conference。
 
-对于很多学者而言，home community 是一个很重要的概念。我在chi 遇到很多已经退休的大佬们，依然每年来chi和奋斗多年的朋友一起hangout。home community 既可以是大家解决类似的问题，也或者解决问题的手段比较类似。对我而言，我解决的问题更接近于chi，但我解决问题的手段却属于mobile computing的领域。chi之于我在于，这里有太多的人在提问题，或者complain这个世界的哪一部分work得不够好，但是很少人能真正提出solution。所有的新科技和新研究在一开始du hui
+对于很多学者而言，home community 是一个很重要的概念。我在CHI 遇到很多已经退休的大佬们，依然每年来CHI和奋斗多年的朋友一起hangout。home community 既可以是大家解决类似的问题，也或者解决问题的手段比较类似。对我而言，我解决的问题更接近于CHI，但我解决问题的手段却属于mobile computing的领域。CHI之于我在于，这里有太多的人在提问题，或者complain这个世界的哪一部分work得不够好，但是很少人能真正提出solution。所有的新科技和新研究在一开始du hui
 
 
 Find a home: You need to have a "home community", or sub-discipline. This is typically defined by the kinds of research problems you pursue, or the set of techniques you use to solve the problems, or both. More concretely, your home community is defined by a set of conference venues (e.g., SIGCOMM/NSDI/CoNext, or FOCS/STOC/SODA, or whatever). You'll want the bulk of your publications to appear at a set of related venues (and preferably the more competitive and visible venues), so your work reaches your home community and you are visible within that home community. Later, when you apply for a faculty position, the faculty in this "home community" can push for you to be hired, and view you as filling "their slot" if hiring is done by area. Even if you do interdisciplinary work, junior researchers should "pick a side" and focus on one community for building their publication record, professional visibility, and so on. For example, if you apply theoretical cryptography to security problems in computer networks, you should decide if you are a networking person (and publish primarily at SIGCOMM, CoNext, INFOCOM, etc.), a security person (and publish primarily at CCS, S&P, USENIX Security, etc.), or a cryptography person. As you gain more professional stature, and start advising students of your own, you might choose to straddle two related communities (e.g., networking and security, or networking and distributed systems) and their associated conferences.
