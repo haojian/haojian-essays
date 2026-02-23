@@ -7,6 +7,14 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Shadow How Peter Steinberger Coding with AI</title>
+        <description>AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.</description>
+        <pubDate>Mon, 23 Feb 2026 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/posts/shadow-ai-coding</link>
+        <guid isPermaLink="true">http://localhost:4000/posts/shadow-ai-coding</guid>
+      </item>
+    
+      <item>
         <title>From DataSmith to AISmith</title>
         <description>Build more, use ai more, and be visible.</description>
         <pubDate>Sun, 11 Jan 2026 00:00:00 -0800</pubDate>
@@ -76,14 +84,6 @@
         <pubDate>Fri, 22 Jul 2016 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/posts/money-money-come-to-me</link>
         <guid isPermaLink="true">http://localhost:4000/posts/money-money-come-to-me</guid>
-      </item>
-    
-      <item>
-        <title>冒险的开始</title>
-        <description>an adventure</description>
-        <pubDate>Sun, 01 May 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/posts/an-adventure</link>
-        <guid isPermaLink="true">http://localhost:4000/posts/an-adventure</guid>
       </item>
     
   </channel>
