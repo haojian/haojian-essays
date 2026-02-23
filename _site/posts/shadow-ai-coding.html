@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>The Hero with a Thousand Faces | Shadow How Peter Steinberger Coding with AI</title>
+  <title>The Hero with a Thousand Faces | Shadowing How Peter Steinberger Codes with AI</title>
   <meta name="description" content="AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:title" content="Shadow How Peter Steinberger Coding with AI">
+  <meta property="og:title" content="Shadowing How Peter Steinberger Codes with AI">
   <meta property="og:type" content="website">
   <meta property="og:url" content="http://localhost:4000/posts/shadow-ai-coding">
   <meta property="og:description" content="AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.">
@@ -15,7 +15,7 @@
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:url" content="http://localhost:4000/posts/shadow-ai-coding">
-  <meta name="twitter:title" content="Shadow How Peter Steinberger Coding with AI">
+  <meta name="twitter:title" content="Shadowing How Peter Steinberger Codes with AI">
   <meta name="twitter:description" content="AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.">
 
   
@@ -134,7 +134,7 @@
 
         <article class="article scrollappear">
           <header class="article-header">
-            <h1>Shadow How Peter Steinberger Coding with AI</h1>
+            <h1>Shadowing How Peter Steinberger Codes with AI</h1>
             <p>AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.</p>
             <div class="article-list-footer">
   <span class="article-list-date">
@@ -171,7 +171,7 @@
 
 <p>That experience stuck with me. Recently, my lab started building <a href="https://aicodinggym.com/">AI Coding Gym</a>, a platform to help people practice AI-assisted programming. Honestly, we’re not the best AI coders ourselves. My students suggested we interview top AI coders to learn their techniques. But when I looked around, most people seemed to be doing what we were doing — flailing around with AI, throwing punches in the dark.</p>
 
-<p>Then I came across a livestream by Peter Steinberger from September 2025. Peter is the creator of OpenClaw — back then he wasn’t as famous as he is now. In the stream, he built a complete new feature for a Twitter analytics platform, from scratch, using Claude Code and Codex. I watched the entire thing frame by frame, like I was back in that Yahoo cubicle doing my shadow engineering rotation.</p>
+<p>Then I came across a livestream by Peter Steinberger from September 2025. Peter is the creator of OpenClaw — back then he wasn’t as famous as he is now. In the stream, he built a completely new feature for a Twitter analytics platform, from scratch, using Claude Code and Codex. I watched the entire thing frame by frame, like I was back in that Yahoo cubicle doing my shadow engineering rotation.</p>
 
 <p>His workflow had a kind of brutal elegance. Every detail made sense. I could see <em>why</em> each choice was right, but I had never noticed these details before. That gap — between knowing the tools exist and knowing how to orchestrate them — is probably the difference between my flailing and his OpenClaw.</p>
 
@@ -193,13 +193,17 @@
 
 <p><img src="/resources/ghostty.png" alt="alt text" /></p>
 
-<p>Hardware: Mac desktop, Dell ultrawide monitor, 4 Ghostty terminal windows side by side. Left: Codex running database migration. Center: two agents building separate features. Right: server + terminal. More agents = more splits.</p>
+<p>Hardware: Mac desktop, Dell ultrawide monitor, 4 <a href="https://ghostty.org/">Ghostty terminal</a> windows side by side. Left: Codex running database migration. Center: two agents building separate features. Right: server + terminal. More agents = more splits.</p>
 
-<p>He uses <a href="https://wisprflow.ai/">Wispr Flow</a> (recently acquired by Apple) for voice-to-prompt input. Sublime Merge for diffs. Only one MCP — Brave search API. Everything else runs through CLI tools, many of which he vibe-coded himself. He uses Linear CLI for task management, Better Stack Logs for monitoring, Inngest for background jobs. Modern services that ship with llms.txt files so AI agents can understand how to use them out of the box.</p>
+<p>He uses <a href="https://wisprflow.ai/">Wispr Flow</a> (recently acquired by Apple) for voice-to-prompt input.</p>
+
+<p><a href="https://www.sublimemerge.com/">Sublime Merge</a> for diffs. Only one MCP — Brave search API. Everything else runs through CLI tools, many of which he vibe-coded himself. He uses <a href="https://linear.app/">Linear</a> CLI for task management, Better Stack Logs (vibe-coded tool) for monitoring, <a href="https://www.inngest.com/">Inngest</a> for background jobs. Modern services that ship with <a href="https://www.inngest.com/llms.txt">llms.txt files</a> so AI agents can understand how to use them out of the box.</p>
 
 <p>—</p>
 
-<p><strong>claude.md is the AI’s operating manual.</strong> He writes code style rules, lint configurations, and detailed database instructions into it. His quote: “morph the chaos it produces into a code style that I like.” The database section is the largest — because database operations are where things go wrong most. Keep it concise, split into multiple files if needed, and let the model help you maintain it.</p>
+<p><strong>claude.md is the AI’s operating manual.</strong> He writes code style rules, lint configurations, and detailed database instructions into it. His quote: “morph the chaos it produces into a code style that I like.” The database section is the largest — because database operations are where things go wrong the most. Keep it concise, split into multiple files if needed, and let the model help you maintain it.</p>
+
+<p><img src="/resources/peter-db.png" alt="alt text" /></p>
 
 <p>—</p>
 
@@ -218,7 +222,7 @@
           <div class="article-share">
             
             
-            <a href="https://twitter.com/home?status=Shadow+How+Peter+Steinberger+Coding+with+AI%20-%20http://localhost:4000/posts/shadow-ai-coding" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
+            <a href="https://twitter.com/home?status=Shadowing+How+Peter+Steinberger+Codes+with+AI%20-%20http://localhost:4000/posts/shadow-ai-coding" title="Share on Twitter" rel="noreferrer noopener" target="_blank">
               <svg viewBox="0 0 512 512"><path d="M492 109.5c-17.4 7.7-36 12.9-55.6 15.3 20-12 35.4-31 42.6-53.6 -18.7 11.1-39.4 19.2-61.5 23.5C399.8 75.8 374.6 64 346.8 64c-53.5 0-96.8 43.4-96.8 96.9 0 7.6 0.8 15 2.5 22.1 -80.5-4-151.9-42.6-199.6-101.3 -8.3 14.3-13.1 31-13.1 48.7 0 33.6 17.2 63.3 43.2 80.7C67 210.7 52 206.3 39 199c0 0.4 0 0.8 0 1.2 0 47 33.4 86.1 77.7 95 -8.1 2.2-16.7 3.4-25.5 3.4 -6.2 0-12.3-0.6-18.2-1.8 12.3 38.5 48.1 66.5 90.5 67.3 -33.1 26-74.9 41.5-120.3 41.5 -7.8 0-15.5-0.5-23.1-1.4C62.8 432 113.7 448 168.3 448 346.6 448 444 300.3 444 172.2c0-4.2-0.1-8.4-0.3-12.5C462.6 146 479 129 492 109.5z"/></svg>
             </a>
             <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/posts/shadow-ai-coding" title="Share on Facebook" rel="noreferrer noopener" target="_blank">

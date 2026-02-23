@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Shadow How Peter Steinberger Coding with AI"
+title: "Shadowing How Peter Steinberger Codes with AI"
 description: "AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest."
 tags: [research, en]
 ---
@@ -14,7 +14,7 @@ My first job was at Yahoo. On day one, my manager didn't give me a project. Inst
 
 That experience stuck with me. Recently, my lab started building [AI Coding Gym](https://aicodinggym.com/), a platform to help people practice AI-assisted programming. Honestly, we're not the best AI coders ourselves. My students suggested we interview top AI coders to learn their techniques. But when I looked around, most people seemed to be doing what we were doing — flailing around with AI, throwing punches in the dark.
 
-Then I came across a livestream by Peter Steinberger from September 2025. Peter is the creator of OpenClaw — back then he wasn't as famous as he is now. In the stream, he built a complete new feature for a Twitter analytics platform, from scratch, using Claude Code and Codex. I watched the entire thing frame by frame, like I was back in that Yahoo cubicle doing my shadow engineering rotation.
+Then I came across a livestream by Peter Steinberger from September 2025. Peter is the creator of OpenClaw — back then he wasn't as famous as he is now. In the stream, he built a completely new feature for a Twitter analytics platform, from scratch, using Claude Code and Codex. I watched the entire thing frame by frame, like I was back in that Yahoo cubicle doing my shadow engineering rotation.
 
 His workflow had a kind of brutal elegance. Every detail made sense. I could see *why* each choice was right, but I had never noticed these details before. That gap — between knowing the tools exist and knowing how to orchestrate them — is probably the difference between my flailing and his OpenClaw.
 
@@ -36,15 +36,19 @@ His rule of thumb: when the remaining context drops below 33%, the model "gets d
 
 ![alt text](/resources/ghostty.png)
 
-Hardware: Mac desktop, Dell ultrawide monitor, 4 Ghostty terminal windows side by side. Left: Codex running database migration. Center: two agents building separate features. Right: server + terminal. More agents = more splits.
+Hardware: Mac desktop, Dell ultrawide monitor, 4 [Ghostty terminal](https://ghostty.org/) windows side by side. Left: Codex running database migration. Center: two agents building separate features. Right: server + terminal. More agents = more splits.
 
-He uses [Wispr Flow](https://wisprflow.ai/) (recently acquired by Apple) for voice-to-prompt input. Sublime Merge for diffs. Only one MCP — Brave search API. Everything else runs through CLI tools, many of which he vibe-coded himself. He uses Linear CLI for task management, Better Stack Logs for monitoring, Inngest for background jobs. Modern services that ship with llms.txt files so AI agents can understand how to use them out of the box.
+He uses [Wispr Flow](https://wisprflow.ai/) (recently acquired by Apple) for voice-to-prompt input. 
+
+[Sublime Merge](https://www.sublimemerge.com/) for diffs. Only one MCP — Brave search API. Everything else runs through CLI tools, many of which he vibe-coded himself. He uses [Linear](https://linear.app/) CLI for task management, Better Stack Logs (vibe-coded tool) for monitoring, [Inngest](https://www.inngest.com/) for background jobs. Modern services that ship with [llms.txt files](https://www.inngest.com/llms.txt) so AI agents can understand how to use them out of the box.
 
 
 
 —
 
-**claude.md is the AI's operating manual.** He writes code style rules, lint configurations, and detailed database instructions into it. His quote: "morph the chaos it produces into a code style that I like." The database section is the largest — because database operations are where things go wrong most. Keep it concise, split into multiple files if needed, and let the model help you maintain it.
+**claude.md is the AI's operating manual.** He writes code style rules, lint configurations, and detailed database instructions into it. His quote: "morph the chaos it produces into a code style that I like." The database section is the largest — because database operations are where things go wrong the most. Keep it concise, split into multiple files if needed, and let the model help you maintain it.
+
+![alt text](/resources/peter-db.png)
 
 —
 

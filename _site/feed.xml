@@ -7,7 +7,7 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Shadow How Peter Steinberger Coding with AI</title>
+        <title>Shadowing How Peter Steinberger Codes with AI</title>
         <description>AI coding is context window management. Save every token you can. Verify manually. Break things down. Let AI handle the rest.</description>
         <pubDate>Mon, 23 Feb 2026 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/posts/shadow-ai-coding</link>
