@@ -10,7 +10,7 @@ tags: [research, en]
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68BS5GCRcBo?si=U8JnVejo6tcwLAtB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-My first job was at Yahoo. On day one, my manager didn't give me a project. Instead, he told me to shadow a senior engineer with 20+ years of experience. I sat in the cubicle next to him for a few hours and watched everything — every keystroke, every mouse movement, every shortcut. When I didn't understand something, I asked: Why this shortcut? Why not use the mouse here? That experience influenced my working habits for many years. 
+My first job was at Yahoo. On day one, my manager didn't give me a project. Instead, he told me to shadow a senior engineer with 20+ years of experience. I sat in the cubicle next to the senior engineer for a few hours and watched everything — every keystroke, every mouse movement, every shortcut. When I didn't understand something, I asked: Why this shortcut? Why not use the mouse here? That experience influenced my working habits for many years. 
 
 Recently, my lab started building [AI Coding Gym](https://aicodinggym.com/), a platform to help people practice AI-assisted programming. Honestly, we're not the best AI coders ourselves. My students suggested we interview top AI coders to learn their techniques. But when I looked around, most people seemed to be doing what we were doing — prompting AI, opening multiple agents in terminals managed by a [tmux](https://github.com/tmux/tmux/wiki), trying to create an agent team, but most of them failed.
 
